@@ -6,7 +6,15 @@
 int main()
 {
     std::cout << "Hello World!\n";
+    int x;
+    std::cin >> x;
+
+    if (1)
+        std::cout << 10 / x;
+    else 
+        std::cout << "error" << std::endl;
 }
+
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
 // Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
